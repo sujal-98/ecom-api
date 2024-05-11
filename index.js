@@ -20,10 +20,6 @@ mongoose.connect(process.env.url
 })
 
 
-app.get('/api',()=>{
-    console.log("yo baby")
-})
-
 //middlewares
 
 app.use(express.json())
